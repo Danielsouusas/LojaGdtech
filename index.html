@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDTech — Assistência Técnica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ecbf704aaf.js" crossorigin="anonymous" defer></script>
+</head>
+<body class="escuro">
+    <header>
+        <div class="container header-row">
+            
+            <a class="logo" href="#">
+                <img src="imgloja/Screenshot_20200827-233921_WhatsApp.jpg" alt="GDTech logo" width="56" height="56">
+            </a>
+            <nav id="main-nav" class="nav">
+                <button id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#servico">Serviços</a></li>
+                    <li><a href="#produto">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="tools">
+                <a class="whatsapp" href="https://wa.me/85992010344" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <button id="botao-tema" aria-pressed="false" title="Alternar tema"> <i class="fa-solid fa-moon"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Assistência Técnica Especializada</h1>
+                <p>Conserto rápido, peças de qualidade e garantia.</p>
+                <a href="#contato" class="btn">Fale conosco</a>
+            </div>
+        </section>
+
+        <section id="servico" class="section cards">
+            <div class="container grid">
+                <article class="card">Troca de Tela</article>
+                <article class="card">Troca de Bateria</article>
+                <article class="card">Reparo de Placa</article>
+                <article class="card">Conector de Carga</article>
+                <article class="card">Atualização de Software</article>
+                <article class="card">Diagnóstico Completo</article>
+            </div>
+        </section>
+
+        <section id="produto" class="section">
+            <div class="container">
+                <h2>Nossos produtos</h2>
+                <div class="grid produto-grid">
+                    <figure><img src="imgloja/tela3.jpg" alt="Troca de tela"><figcaption>Telas</figcaption></figure>
+                    <figure><img src="imgloja/bateria.jpg" alt="Baterias"><figcaption>Baterias</figcaption></figure>
+                    <figure><img src="imgloja/carregador1.jpg" alt="Carregadores"><figcaption>Carregadores</figcaption></figure>
+                    <figure><img src="imgloja/cabo.jpg" alt="Cabos"><figcaption>Cabos</figcaption></figure>
+                    <figure><img src="imgloja/fone%20sem.jpg" alt="Fones de ouvido"><figcaption>Fones Bluetooth</figcaption></figure>
+                     <figure><img src="imgloja/WhatsApp apple watch8.jpeg" alt="apple watch"><figcaption>Apple Watch</figcaption></figure>
+                    <figure><img src="imgloja/portatil.jpg" alt="Carregador portátil"><figcaption>Baterias Portáteis</figcaption></figure>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="detalhes" class="section">
+            <div class="container">
+                <h2>Serviços em vídeo</h2>
+                <div class="video-grid">
+                    <video controls src="imgloja/WhatsApp%20Video%20ihpne.mp4">Seu navegador não suporta vídeo.</video>
+                    <video controls src="imgloja/WhatsApp%20Video%20iphoe%20bco.mp4"></video>
+                    <video controls src="imgloja/WhatsApp%20Video%20iphone%203.mp4"></video>
+                    <videos></videos>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>Fale com a gente</h2>
+                <form class="formulario" method="post" action="#">
+                    <label for="nome">Seu nome</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone">
+
+                    <label for="email">E‑mail</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset class="radiobox">
+                        <legend>Deseja receber novidades?</legend>
+                        <label><input type="radio" name="novidades" value="sim" checked> Sim</label>
+                        <label><input type="radio" name="novidades" value="nao"> Não</label>
+                    </fieldset>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                    <button type="submit" class="btn primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="vantagens" class="section contato">
+            <div class="container">
+                <h2>Por que escolher a GDTech?</h2>
+                <ul class="vantagens">
+                    <li>Atendimento rápido</li>
+                    <li>Peças de qualidade</li>
+                    <li>Garantia nos serviços</li>
+                    <li>Preço justo</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contato" class="section contato">
+            <div class="container">
+                <h2>Entre em contato</h2>
+                <p>Sua cidade — Brasil</p>
+                <p>(85) 99999‑9999</p>
+                <p>@gd.tec</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 GDTech — Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
