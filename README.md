@@ -1,0 +1,2 @@
+# LojaGdtech
+projeto
